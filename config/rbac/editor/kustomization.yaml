@@ -4,6 +4,7 @@ kind: Kustomization
 labels:
   - pairs:
       rbac.authorization.k8s.io/aggregate-to-admin: "true"
+      rbac.authorization.k8s.io/aggregate-to-edit: "true"
       
 resources:
   - awx_editor_role.yaml

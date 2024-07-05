@@ -3,7 +3,7 @@ kind: Kustomization
 
 labels:
   - pairs:
-      rbac.authorization.k8s.io/aggregate-to-admin: "true"
+      rbac.authorization.k8s.io/aggregate-to-view: "true"
       
 resources:
   - awx_viewer_role.yaml
